@@ -1,0 +1,83 @@
+   .a-ca-head-title {
+      border-right: solid 1px #e5e5e5;
+      background-color: white;
+      padding: 0 !important;
+    }
+.test{
+	border-right: solid 1px #e5e5e5;
+	border-left: solid 1px #e5e5e5;
+	white-space: nowrap;
+}
+a {
+	line-height:25px;
+}
+.test2 td{
+	border-right: solid 1px #e5e5e5;
+	border-left: solid 1px #e5e5e5;
+	font-size: 10px;
+	text-align: right;
+}
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+    table th {
+      padding: 5px;
+		
+    }
+    table td {
+      padding: 5px;
+    }
+    .a-ca-table {
+      border: solid 1px #e5e5e5;
+    }
+    .a-ca-table tbody tr td {
+      border: solid 1px #e5e5e5;
+      text-align: center;
+    }
+.main{
+	text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+	.a-ca-ht-div1{
+	background-color: #199fff;
+	}
+    .a-ca-ht-div {
+    background-image: url(./xie.png);
+	background-color: #199fff;
+    background-size: 100% 100%;
+    }
+	.a-ca-t-weej {
+      border-bottom: solid 1px #e5e5e5;
+      border-top: solid 1px #e5e5e5;
+		
+    }
+    .a-ca-t-weej th {
+	border: solid 1px #e5e5e5;
+    text-align: center;
+	background-color: #199fff;
+	color: aliceblue;
+    }
+    .a-ca-t-week {
+      border-bottom: solid 1px #e5e5e5;
+      border-top: solid 1px #e5e5e5;
+		
+    }
+    .a-ca-t-week th {
+	border: solid 1px #e5e5e5;
+    text-align: center;
+    }
+    .a-ca-t-weep {
+      border-bottom: solid 1px #e5e5e5;
+      border-top: solid 1px #e5e5e5;
+	  white-space: nowrap;
+    }
+    .a-ca-t-weep tr td {
+	border: solid 1px #e5e5e5;
+    text-align: center;
+    }

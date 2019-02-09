@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>每日热量需求计算</title>
+<link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+  </head>
+  <body>
+  <div class="main">
+		  <h1>每日热量需求计算</h1>
+<table class="a-ca-table">
+  <thead>
+    <tr>
+      <th rowspan="2" class="a-ca-head-title">
+        <div class="a-ca-ht-div">
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th><font color="#ffffff">时间(小时)</th>
+              </tr>
+              <tr>
+                <th><font color="#ffffff">生活动作</th>
+                <th></th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </th>
+      <th colspan="4" class="a-ca-ht-div1"><font color="#ffffff">生活活动强度</th>
+    </tr>
+    <tr class="a-ca-t-week">
+      <th >低度</th>
+      <th>稍低度</th>
+      <th>适度</th>
+      <th>高度</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td >安静</td>
+      <td >12</td>
+      <td >10</td>
+      <td >9</td>
+      <td >9</td>
+    </tr>
+	</tbody>
+	<tbody>
+    <tr>
+      <td >步行</td>
+      <td >11</td>
+      <td >9</td>
+      <td >8</td>
+      <td >8</td>
+    </tr>
+	</tbody>
+	<tbody>
+    <tr>
+      <td >快走</td>
+      <td >0</td>
+      <td >0</td>
+      <td >1</td>
+      <td >1</td>
+    </tr>
+	</tbody>
+	<tbody>
+    <tr>
+      <td >肌肉运动</td>
+      <td >0</td>
+      <td >0</td>
+      <td >0</td>
+      <td >1</td>
+    </tr>
+	</tbody>
+</table>
+	  <form action="/" method="post">
+		<a> 参考表格请选择您的生活动作强度：</a>
+		<select name="strength" >
+  		<option value=1>低度</option>
+		<option value=2>稍低度</option>
+		<option value=3>适度</option>
+		<option value=4>高度</option>
+		</select>
+			</br><a>请输入您的体重（kg）:</a>
+		  <input type="text" name="kg" style="width: 50px;">
+		<button type="submit">确定</button>
+		</form>
+</div>
+  </body>
+</html>
